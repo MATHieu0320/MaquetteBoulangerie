@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "fontJulius";
+  src: url("../fonts/JuliusSansOne-Regular.ttf");
+}
+@font-face {
+  font-family: "fontJudson";
+  src: url("../fonts/Judson-Regular.ttf");
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  color: #844f00;
+  font-family: judson, sans-serif;
+  font-size: 2rem;
+}
+
+.button {
+  font-family: judson, sans-serif;
+  background: #ffa600;
+  color: #ffffff;
+  text-align: center;
+  padding: 2%;
+}/*# sourceMappingURL=index.css.map */
