@@ -12,6 +12,12 @@ body {
   box-sizing: border-box;
 }
 
+ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
 .title {
   color: #844f00;
   font-family: judson, sans-serif;
@@ -22,6 +28,43 @@ body {
   font-family: judson, sans-serif;
   background: #ffa600;
   color: #ffffff;
+  font-size: 1.1rem;
   text-align: center;
-  padding: 2%;
+  padding: 14px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+.Affiche {
+  background: url(../images/affiche.png) center/cover;
+  height: 700px;
+  width: 100%;
+}
+
+header nav {
+  background-color: #675b4d;
+  padding: 15px;
+}
+header .nav-component {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+header .nav-component .container-img {
+  width: 11%;
+}
+header .nav-component ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+header .nav-component ul li {
+  color: #ffffff;
+}
+header .nav-component .button-container {
+  display: flex;
+  justify-content: right;
+  width: 18%;
 }/*# sourceMappingURL=index.css.map */

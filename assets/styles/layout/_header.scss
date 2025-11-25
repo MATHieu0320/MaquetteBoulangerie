@@ -1,2 +1,31 @@
 header {
+  nav {
+    background-color: $Marron;
+    padding: 15px;
+  }
+  .nav-component {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    .container-img {
+      width: 11%;
+    }
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 70%;
+    }
+    ul li {
+      color: $blanc;
+    }
+    .button-container {
+      display: flex;
+      justify-content: right;
+      width: 18%;
+    }
+  }
+  .Affiche {
+  }
 }

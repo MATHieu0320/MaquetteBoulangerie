@@ -21,6 +21,11 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+ul li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
 .title {
   color: $CouleurTitre;
   font-family: $fontJudson;
@@ -30,6 +35,14 @@ body {
   font-family: $fontJudson;
   background: $orange;
   color: $blanc;
+  font-size: 1.1rem;
   text-align: center;
-  padding: 2%;
+  padding: 14px;
+  width: 150px;
+  border-radius: 20px;
+}
+.Affiche {
+  background: url(../images/affiche.png) center/cover;
+  height: 700px;
+  width: 100%;
 }
