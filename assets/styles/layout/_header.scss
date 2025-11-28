@@ -9,23 +9,58 @@ header {
     margin: 0 auto;
     width: 80%;
     .container-img {
-      width: 11%;
+      width: 13.5%;
     }
     ul {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 70%;
+      width: 65%;
+      cursor: pointer;
     }
     ul li {
       color: $blanc;
+      font-family: $fontJulius;
+      font-size: 1.3rem;
     }
     .button-container {
       display: flex;
       justify-content: right;
-      width: 18%;
+      width: 20.5%;
     }
   }
-  .Affiche {
+  .Poster {
+    position: relative;
+    color: $blanc;
+    font-family: $fontJudson;
+    .Poster-container {
+      position: absolute;
+      background-color: rgba(0, 0, 0, 0.295);
+      width: 100%;
+      top: 55%;
+      display: grid;
+      grid-template-columns: 70% 30%;
+      grid-template-rows: 1fr;
+      align-items: center;
+      .content1 {
+        padding-left: 27.5%;
+        h1 {
+          font-size: 3.2rem;
+          font-weight: 100;
+          color: white;
+          -webkit-text-stroke: 1px black;
+        }
+        p {
+          font-size: 1.8rem;
+        }
+      }
+      .content2 {
+        display: flex;
+        justify-content: left;
+        .button {
+          display: block;
+        }
+      }
+    }
   }
 }

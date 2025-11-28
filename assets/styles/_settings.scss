@@ -29,7 +29,8 @@ ul li {
 .title {
   color: $CouleurTitre;
   font-family: $fontJudson;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-left: 20%;
 }
 .button {
   font-family: $fontJudson;
@@ -39,10 +40,11 @@ ul li {
   text-align: center;
   padding: 14px;
   width: 150px;
-  border-radius: 20px;
+  border-radius: 30px;
+  cursor: pointer;
 }
-.Affiche {
+.Poster {
   background: url(../images/affiche.png) center/cover;
-  height: 700px;
+  height: 780px;
   width: 100%;
 }

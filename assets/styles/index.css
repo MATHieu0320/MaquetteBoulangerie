@@ -21,7 +21,8 @@ ul li {
 .title {
   color: #844f00;
   font-family: judson, sans-serif;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin-left: 20%;
 }
 
 .button {
@@ -32,12 +33,13 @@ ul li {
   text-align: center;
   padding: 14px;
   width: 150px;
-  border-radius: 20px;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
-.Affiche {
+.Poster {
   background: url(../images/affiche.png) center/cover;
-  height: 700px;
+  height: 780px;
   width: 100%;
 }
 
@@ -52,19 +54,60 @@ header .nav-component {
   width: 80%;
 }
 header .nav-component .container-img {
-  width: 11%;
+  width: 13.5%;
 }
 header .nav-component ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 70%;
+  width: 65%;
+  cursor: pointer;
 }
 header .nav-component ul li {
   color: #ffffff;
+  font-family: fontJulius, sans-serif;
+  font-size: 1.3rem;
 }
 header .nav-component .button-container {
   display: flex;
   justify-content: right;
-  width: 18%;
+  width: 20.5%;
+}
+header .Poster {
+  position: relative;
+  color: #ffffff;
+  font-family: judson, sans-serif;
+}
+header .Poster .Poster-container {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.295);
+  width: 100%;
+  top: 55%;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+header .Poster .Poster-container .content1 {
+  padding-left: 27.5%;
+}
+header .Poster .Poster-container .content1 h1 {
+  font-size: 3.2rem;
+  font-weight: 100;
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+header .Poster .Poster-container .content1 p {
+  font-size: 1.8rem;
+}
+header .Poster .Poster-container .content2 {
+  display: flex;
+  justify-content: left;
+}
+header .Poster .Poster-container .content2 .button {
+  display: block;
+}
+
+main .main-container1 {
+  background: #b16e1b;
 }/*# sourceMappingURL=index.css.map */
