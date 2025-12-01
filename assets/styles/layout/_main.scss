@@ -1,5 +1,36 @@
 main {
   .main-container1 {
     background: $Marron-Clair;
+    .company {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 70%;
+      margin: 0 auto;
+      padding: 1% 0;
+      gap: 15px;
+      .company-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        .CompanyName {
+          font-family: $fontJudson;
+          font-size: 1.7rem;
+          margin-top: 15px;
+          color: $CouleurTitre;
+        }
+      }
+    }
+  }
+  .main-container2 {
+    .Card {
+      background: url("../../images/maps.png") center/cover;
+      height: 100%;
+      width: 100%;
+    }
   }
 }
