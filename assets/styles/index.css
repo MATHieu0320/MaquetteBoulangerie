@@ -19,10 +19,11 @@ ul li {
 }
 
 .title {
-  color: #844f00;
+  color: #844f14;
   font-family: judson, sans-serif;
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   margin-left: 20%;
+  font-weight: 100;
 }
 
 .button {
@@ -35,12 +36,6 @@ ul li {
   width: 150px;
   border-radius: 30px;
   cursor: pointer;
-}
-
-.Poster {
-  background: url(../images/affiche.png) center/cover;
-  height: 800px;
-  width: 100%;
 }
 
 header nav {
@@ -74,7 +69,9 @@ header .nav-component .button-container {
   width: 20.5%;
 }
 header .Poster {
-  position: relative;
+  background: url(../images/affiche.png) center/cover;
+  height: 800px;
+  width: 100%;
   color: #ffffff;
   font-family: judson, sans-serif;
 }
@@ -117,7 +114,7 @@ main .main-container1 .company {
   align-items: center;
   width: 70%;
   margin: 0 auto;
-  padding: 1% 0;
+  padding: 2% 0;
   gap: 15px;
 }
 main .main-container1 .company .company-container {
@@ -133,10 +130,41 @@ main .main-container1 .company .company-container .CompanyName {
   font-family: judson, sans-serif;
   font-size: 1.7rem;
   margin-top: 15px;
-  color: #844f00;
+  color: #844f14;
 }
 main .main-container2 .Card {
-  background: url("../../images/maps.png") center/cover;
-  height: 100%;
-  width: 100%;
+  background: url(../images/maps2.png) center/contain;
+  height: 329px;
+  max-width: 1425px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .main-container3 {
+  background-color: #e1c7a7;
+  padding: 2% 0;
+}
+main .main-container3 .products {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .main-container3 .products .products-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 380px;
+  padding: 25px 15px;
+}
+main .main-container3 .products .products-container p {
+  color: #675b4d;
+  font-size: 1.3rem;
+  margin-left: 15%;
+  margin-right: 15%;
 }/*# sourceMappingURL=index.css.map */

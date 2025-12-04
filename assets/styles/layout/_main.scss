@@ -1,13 +1,14 @@
 main {
   .main-container1 {
     background: $Marron-Clair;
+
     .company {
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 70%;
       margin: 0 auto;
-      padding: 1% 0;
+      padding: 2% 0;
       gap: 15px;
       .company-container {
         display: flex;
@@ -28,9 +29,41 @@ main {
   }
   .main-container2 {
     .Card {
-      background: url("../../images/maps.png") center/cover;
-      height: 100%;
-      width: 100%;
+      background: url(../images/maps2.png) center/contain;
+      height: 329px;
+      max-width: 1425px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .main-container3 {
+    background-color: $Marron-Clair;
+    padding: 2% 0;
+    .products {
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .products-container {
+        background-color: $blanc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-radius: 10px;
+        width: 380px;
+        padding: 25px 15px;
+
+        p {
+          color: $Marron;
+          font-size: 1.3rem;
+          margin-left: 15%;
+          margin-right: 15%;
+        }
+      }
     }
   }
 }

@@ -30,7 +30,9 @@ header {
     }
   }
   .Poster {
-    position: relative;
+    background: url(../images/affiche.png) center/cover;
+    height: 800px;
+    width: 100%;
     color: $blanc;
     font-family: $fontJudson;
     .Poster-container {

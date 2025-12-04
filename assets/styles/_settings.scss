@@ -14,7 +14,7 @@ $blanc: #ffffff;
 $orange: #ffa600;
 $Marron: #675b4d;
 $Marron-Clair: #e1c7a7;
-$CouleurTitre: #844f00;
+$CouleurTitre: #844f14;
 
 body {
   margin: 0;
@@ -29,8 +29,9 @@ ul li {
 .title {
   color: $CouleurTitre;
   font-family: $fontJudson;
-  font-size: 2.5rem;
+  font-size: 2.6rem;
   margin-left: 20%;
+  font-weight: 100;
 }
 .button {
   font-family: $fontJudson;
@@ -42,9 +43,4 @@ ul li {
   width: 150px;
   border-radius: 30px;
   cursor: pointer;
-}
-.Poster {
-  background: url(../images/affiche.png) center/cover;
-  height: 800px;
-  width: 100%;
 }
