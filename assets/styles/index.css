@@ -42,6 +42,11 @@ header nav {
   background-color: #675b4d;
   padding: 15px;
 }
+@media (max-width: 1428px) {
+  header nav .button {
+    width: 130px;
+  }
+}
 header .nav-component {
   display: flex;
   align-items: center;
@@ -85,15 +90,30 @@ header .Poster .Poster-container {
   grid-template-rows: 1fr;
   align-items: center;
 }
+@media (max-width: 1428px) {
+  header .Poster .Poster-container {
+    padding: 3% 3px;
+  }
+}
 header .Poster .Poster-container .content1 {
   padding-left: 27.5%;
 }
 header .Poster .Poster-container .content1 h1 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 100;
+}
+@media (max-width: 1428px) {
+  header .Poster .Poster-container .content1 h1 {
+    font-size: 2.2rem;
+  }
 }
 header .Poster .Poster-container .content1 p {
   font-size: 1.8rem;
+}
+@media (max-width: 1428px) {
+  header .Poster .Poster-container .content1 p {
+    font-size: 1.2rem;
+  }
 }
 header .Poster .Poster-container .content2 {
   display: flex;
@@ -101,6 +121,12 @@ header .Poster .Poster-container .content2 {
 }
 header .Poster .Poster-container .content2 .button {
   display: block;
+  width: 180px;
+}
+@media (max-width: 1428px) {
+  header .Poster .Poster-container .content2 .button {
+    width: 150px !important;
+  }
 }
 @media (max-width: 1288px) {
   header .nav-component {
@@ -116,9 +142,6 @@ header .Poster .Poster-container .content2 .button {
   header nav .button {
     width: 115px;
     min-width: 115px;
-  }
-  header h1 {
-    font-size: 2rem !important;
   }
 }
 
@@ -160,7 +183,7 @@ main .main-container1 .company .company-container .CompanyName {
 main .main-container2 .Card {
   background: url(../images/maps2.png) center/contain;
   height: 329px;
-  max-width: 1425px;
+  max-width: 1300px;
   margin: 0 auto;
   display: flex;
   justify-content: center;

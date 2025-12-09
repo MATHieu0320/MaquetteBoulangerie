@@ -2,6 +2,11 @@ header {
   nav {
     background-color: $Marron;
     padding: 15px;
+    .button {
+      @media (max-width: 1428px) {
+        width: 130px;
+      }
+    }
   }
   .nav-component {
     display: flex;
@@ -44,14 +49,25 @@ header {
       grid-template-columns: 70% 30%;
       grid-template-rows: 1fr;
       align-items: center;
+
+      @media (max-width: 1428px) {
+        padding: 3% 3px;
+      }
+
       .content1 {
         padding-left: 27.5%;
         h1 {
-          font-size: 3.2rem;
+          font-size: 3rem;
           font-weight: 100;
+          @media (max-width: 1428px) {
+            font-size: 2.2rem;
+          }
         }
         p {
           font-size: 1.8rem;
+          @media (max-width: 1428px) {
+            font-size: 1.2rem;
+          }
         }
       }
       .content2 {
@@ -59,10 +75,15 @@ header {
         justify-content: left;
         .button {
           display: block;
+          width: 180px;
+          @media (max-width: 1428px) {
+            width: 150px !important;
+          }
         }
       }
     }
   }
+
   @media (max-width: 1288px) {
     .nav-component {
       width: 95%;
@@ -77,11 +98,6 @@ header {
     nav .button {
       width: 115px;
       min-width: 115px;
-    }
-    h1 {
-      font-size: 2rem !important;
-    }
-    .Poster {
     }
   }
 }
