@@ -53,14 +53,28 @@ header {
       @media (max-width: 1428px) {
         padding: 3% 3px;
       }
+      @media (max-width: 780px) {
+        display: block;
+        text-align: center;
 
+        padding: 20px 0 40px 0;
+      }
       .content1 {
         padding-left: 27.5%;
+        @media (max-width: 960px) {
+          padding-left: 15%;
+        }
+        @media (max-width: 780px) {
+          padding-left: 0%;
+        }
         h1 {
-          font-size: 3rem;
+          font-size: 2.7rem;
           font-weight: 100;
           @media (max-width: 1428px) {
-            font-size: 2.2rem;
+            font-size: 2.4rem;
+          }
+          @media (max-width: 960px) {
+            font-size: 2rem;
           }
         }
         p {
@@ -73,6 +87,9 @@ header {
       .content2 {
         display: flex;
         justify-content: left;
+        @media (max-width: 960px) {
+          justify-content: center;
+        }
         .button {
           display: block;
           width: 180px;
