@@ -2,6 +2,7 @@ main {
   h2 {
     margin: 30px 0px 40px 0px;
   }
+
   .main-container1 {
     background: $Marron-Clair;
     .company {
@@ -11,14 +12,27 @@ main {
       width: 70%;
       margin: 0 auto;
       padding: 2% 0;
-      gap: 15px;
-      @media (max-width: 1200px) {
-        width: 95%;
+
+      @media (max-width: 1350px) {
+        width: 90%;
+      }
+      @media (max-width: 700px) {
+        display: block;
+        padding: 6% 0 2% 0;
+        width: 70%;
+      }
+      @media (max-width: 600px) {
+        width: 100%;
       }
       .company-container {
         display: flex;
         flex-direction: column;
         text-align: center;
+        @media (max-width: 700px) {
+          margin: 0 auto;
+          gap: 5px;
+          width: 90%;
+        }
         img {
           width: 100%;
           height: 100%;
@@ -29,6 +43,13 @@ main {
           margin-top: 15px;
           color: $CouleurTitre;
           @media (max-width: 1200px) {
+            font-size: 1.6rem;
+          }
+          @media (max-width: 1000px) {
+            font-size: 1.2rem;
+          }
+          @media (max-width: 700px) {
+            margin-bottom: 25px;
             font-size: 1.5rem;
           }
         }

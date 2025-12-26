@@ -174,7 +174,7 @@ header .Poster .Poster-container .content2 .button {
 }
 @media (max-width: 1288px) {
   header .nav-component {
-    width: 95%;
+    width: 90%;
   }
   header .container-img img {
     height: 100px;
@@ -207,17 +207,35 @@ main .main-container1 .company {
   width: 70%;
   margin: 0 auto;
   padding: 2% 0;
-  gap: 15px;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1350px) {
   main .main-container1 .company {
-    width: 95%;
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  main .main-container1 .company {
+    display: block;
+    padding: 6% 0 2% 0;
+    width: 70%;
+  }
+}
+@media (max-width: 600px) {
+  main .main-container1 .company {
+    width: 100%;
   }
 }
 main .main-container1 .company .company-container {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+@media (max-width: 700px) {
+  main .main-container1 .company .company-container {
+    margin: 0 auto;
+    gap: 5px;
+    width: 90%;
+  }
 }
 main .main-container1 .company .company-container img {
   width: 100%;
@@ -231,6 +249,17 @@ main .main-container1 .company .company-container .CompanyName {
 }
 @media (max-width: 1200px) {
   main .main-container1 .company .company-container .CompanyName {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 1000px) {
+  main .main-container1 .company .company-container .CompanyName {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 700px) {
+  main .main-container1 .company .company-container .CompanyName {
+    margin-bottom: 25px;
     font-size: 1.5rem;
   }
 }
