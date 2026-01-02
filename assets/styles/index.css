@@ -89,6 +89,12 @@ header .Poster {
   width: 100%;
   color: #ffffff;
   font-family: judson, sans-serif;
+  background-size: 100% 100%;
+}
+@media (max-width: 1250px) {
+  header .Poster {
+    background-size: auto;
+  }
 }
 header .Poster .Poster-container {
   position: absolute;
@@ -207,6 +213,7 @@ main .main-container1 .company {
   width: 70%;
   margin: 0 auto;
   padding: 2% 0;
+  gap: 20px;
 }
 @media (max-width: 1350px) {
   main .main-container1 .company {
@@ -265,12 +272,22 @@ main .main-container1 .company .company-container .CompanyName {
 }
 main .main-container2 .Card {
   background: url(../images/maps2.png) center/contain;
-  height: 329px;
+  height: 299px;
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media (max-width: 1350px) {
+  main .main-container2 .Card {
+    background-size: 100% 100%;
+  }
+}
+@media (max-width: 1000px) {
+  main .main-container2 .Card {
+    height: 200px;
+  }
 }
 main .main-container3 {
   background-color: #e1c7a7;
@@ -282,6 +299,13 @@ main .main-container3 .products {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 15px;
+}
+@media (max-width: 1800px) {
+  main .main-container3 .products {
+    max-width: 1300px;
+    width: auto;
+  }
 }
 main .main-container3 .products .products-container {
   background-color: #ffffff;
